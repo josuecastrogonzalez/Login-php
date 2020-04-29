@@ -15,7 +15,7 @@
     
 </head>
 <body>
-     <div class="contenedor-imagen">
+     <div class="container-imagen">
       <img src="biblioteca.jpg" alt="">
   </div>
    
