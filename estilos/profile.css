@@ -1,0 +1,264 @@
+body{
+   position: relative;
+}
+
+.contenedor-header{
+    background: grey;
+    width: 100%;
+    
+}
+header{
+    
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.biblioteca{
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+#venezuela{
+   
+    font-size: 18px;
+    color: white;
+    
+}
+.contenedor-span{
+   
+}
+.contenedor-span .label{
+    font-family: 'Arial';
+    font-size: 15px;
+    color: white;
+   font-weight: normal;
+    
+    
+}
+.contenedor-span .user{
+    font-family: 'Arial';
+    font-weight: bold;
+    color: white;
+}
+
+.cerrar{
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+   
+}
+.cerrar:hover{
+    background: black;
+    border-radius: 20px;
+    transition: 0.5s;
+    
+    
+}
+li{
+    list-style: none;
+    
+}
+section{
+    width: 100%;
+}
+.contenedor-section{
+    height: 600px;
+    width: 50%;
+    margin: auto;
+}
+.bienvenido{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+   
+
+}
+.fa-book{
+    font-size: 30px;
+    color: black;
+}
+.contenedor-informacion{
+    
+    width: 100%;
+   
+}
+.hombre{
+   
+   background: url(../hombre3.jpg) no-repeat;
+    width: 100%;
+    height: 400px;
+  
+   
+    
+}
+.mujer{
+   
+   background: url(../mujer2.jpg) no-repeat;
+    width: 100%;
+    height: 400px;
+  
+   
+    
+}
+.imagen{
+   
+    margin-left: 270px;
+}
+
+.reservados{
+    background: #000;
+    padding: 10px;
+      top: 300px;
+    position: relative;
+    
+}
+.reservados .r{
+    color: white;
+    text-align: center;
+}
+
+@media only screen(min-width:600px){
+    .contenedor-section{
+        background: red;
+    height: 100px;
+    width: 50%;
+    margin: auto;
+}
+}
+/*registar personas*/
+.contenedor-formulario{
+    width: 80%;
+    background: white;    
+     border-radius: 10px;
+      
+    margin: auto; 
+    -webkit-box-shadow: 10px 10px 79px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 79px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 79px 0px rgba(0,0,0,0.75);
+    
+}
+
+.formulario{
+   
+    width: 35%;
+    height: 600px;
+    margin: auto;
+   
+    
+}
+.formulario1{
+   
+    width: 35%;
+    height: 600px;
+    margin: auto;
+   
+    
+}
+.input-group{
+    display: block;
+    
+    
+}
+.registro-libros{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: #1C4C54;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+.solicitar-libros{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: #6174EB;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+label .etiqueta{
+    font-size: 48px;
+    display: block;
+}
+.etiqueta1{
+    font-size:20px;
+    display: block;
+}
+.input-libro{
+    padding: 5px;
+    width: 80%;
+    border: 1px solid black;
+    background: white;
+    
+   
+}
+.btn-primary{
+    margin-top: 30px;
+    width: 100%;
+}
+.btn-secondary{
+    margin-top: 30px;
+    width: 100%;
+}
+.comentario{
+    height: 100px;
+    width: 140%;
+    border: 1px solid black;
+    
+}
+.libros{
+    
+    text-align: center;
+  
+  
+}
+.enlace-registro{
+    background-color: dodgerblue;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+    font-size: 20px;
+    
+}
+
+.enlace-registro:hover{
+    background-color: black;
+   
+    
+}
+
+.contenedor-titulo-libro{
+   
+    padding: 50px;
+    width: 100%;
+}
+.contenedor-titulo-libro a{
+    text-align: center;
+}
+.contenedor-reporte{
+    background: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+   padding: 20px;
+}
+#reporte{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+select{
+    width: 100%;
+     border: 1px solid black;
+    padding: 5px;
+}

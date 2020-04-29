@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    padding: 0;
+   font-family: 'Roboto', sans-serif;
+    
+}
+
+ul{
+
+         display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+
+
+    }
+ ul li{
+        list-style: none;
+        margin-right: 40px;
+        padding: 10px;
+    }
+ul li a{
+     text-decoration: none;
+        font-size: 20px;
+        color: white;
+    }
+
+ul li a:hover{
+        background: grey;
+
+
+
+    }
+.cerrar {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.cerrar:hover{
+    
+     text-decoration: none;
+    
+}
+.contenedor-header{
+    color: white;
+   background: #194D39;
+    width: 100%;
+     height: 50px; 
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+  
+}
+.user{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: white;
+    
+}
+.label{
+    font-family: 'Arial';
+    font-size: 15px;
+}
+header{
+  position: relative;
+}
+.contenedor-menu{
+   width: 100%;
+    height: 70px;
+    background: #080E17;
+   position: absolute;
+    top: 50px;
+}
+.bienvenido{
+    margin-top: 100px;
+    margin-left:50px;
+}
+h1{
+    font-size: 30px;
+}
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+/*ESTILOS DE REGISTRAR USUARIOS*/
+.contenedor-formulario{
+    width: 500px;
+    
+    margin: 100px auto ;
+    
+}
+.contenedor-formulario h2{
+    color: #3c93b0;
+    font-size: 30px;
+    margin: 20px 5px 35px;
+    text-align: center;
+    
+}
+hr{
+     border: 0;
+    background: #ccc;
+    height: 2px;
+    margin: 100px 0;
+    display: block;
+    position: absolute;
+}
+form{
+    background: #fff;
+    margin: auto;
+    padding: 20px 50px;
+    border: 1px solid #d1d1d1;
+    margin-bottom: 100px;
+     box-shadow: 2px 2px 20px #666; 
+}
+label{
+    display: block;
+    font-size: 18px;
+    margin: 15px auto 5px 25px;
+}
+input{
+    display: block;
+    width: 300px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #85929e;
+    border-radius: 2px;
+    margin-left: 20px;
+    
+}
+.registar-libros{
+    background: #2F528E;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.solicitar-libros{
+    background: #2F528E;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.registar-campos{
+    background: ;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.comentario{
+    padding: 30px;
+    height: 100px;
+}
+.alert{
+    width: 100%;
+    
+    border-radius: 2px;
+    margin: 20px auto;
+    font-size: 12px;
+}
+.m_guardar{
+    background: #246B2D;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    
+ 
+}
+.m_error{
+    background: red;
+    padding: 20px;
+    color: white;
+    text-align: left;
+    
+ 
+}
+
+.limpiar{
+    background: #C38D4B;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.limpiar:hover{
+    background: #000000
+;
+}
+.registar-libros:hover{
+background: #2F838E;
+}
+
+.color-verde{
+    background: green;
+    color: white;
+    
+}
+.color-rojo{
+    background: red;
+    color: white;
+}
+
+.color-naranja{
+    background: #FFA83C;
+    color: white;
+}

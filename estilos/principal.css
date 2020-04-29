@@ -1,0 +1,211 @@
+body{
+    padding: 0;
+    margin: 0;
+   font-family: 'Roboto';
+   background: ;
+}
+.contenedor-header{
+    height: 80px;
+    background: #349D50;
+     width: 100%;
+}
+header{
+    width: 80%;
+    margin: auto;
+    height: 80px;
+    background: #349D50;
+    justify-content: space-between;
+    display: flex;
+
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    margin: 20px;
+}
+.menu{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+   
+   
+    
+ 
+}
+.titulo{
+    text-align: justify;
+}
+.menu li{
+    list-style: none;
+    margin:15px;
+
+}
+.menu li a{
+   
+   color: white;
+    text-decoration: none;
+    font-size: 20px;
+       
+}
+
+.menu li a:hover{
+    background: grey;
+   
+  
+}
+section{
+    width: 100%;
+   
+}
+
+.contenedor-mision{
+    width: 50%;
+    margin:auto 300px;
+    
+}
+.contenedor-imagen{
+    
+    margin-top: 80px;
+}
+
+footer{
+    width: 100%;
+    background: #349D50;
+}
+.contenedor-footer{
+  
+}
+
+.cotenedor-todo{
+      width: 80%;
+    margin: auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 80px;
+    align-items: baseline;
+    position: relative;
+    
+    
+}
+
+
+.row .fa-mobile,.row .fa-envelope,.row .fa-home{
+   color: white;
+    font-size: 20px;
+   background: black;
+     padding: 5px;
+    border-radius: 4px;
+    
+}
+.row .fa-facebook-f,.row .fa-twitter,.row .fa-instagram{
+     color: white;
+    font-size: 20px;
+    background: black;
+    padding: 5px;
+ border-radius: 4px;
+}
+.sociales, .direccion, .mas-informacion{
+    margin: 20px;
+    
+}
+label{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+  
+}
+.sociales{
+    width: 80%;
+    
+    
+  
+}
+h1{
+    color: black;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.direccion{
+    width: 90%;
+}
+.reservados{
+    background: #000;
+    padding: 10px;
+    
+}
+.reservados .r{
+    color: white;
+    text-align: center;
+}
+.contenedor-mitad{
+    background: #110817;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 600px;
+     margin-top: 600px;
+   
+}
+.contenedor-creador{
+   margin-left: 320px; 
+    font-size: 30px;
+    color: white;
+   
+}
+.contenedor-imagen2{
+ margin-left: 250px;
+
+    
+}
+#josue{
+    border-radius: 20%;
+    margin-left: 40px;
+   
+}
+#josue:hover{
+
+    animation: 1s mover infinite;
+   
+}
+@keyframes mover{
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(-2px);
+    }
+}
+.creador{
+ 
+    padding-top: 20px;
+  
+   
+}
+.contenedor-nombre{
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    margin-left: 280px;
+
+    
+}
+.josu{
+    padding-bottom: 20px;
+    position: absolute;
+    top: 220px;
+}
+.contenedor-todo-mitad{
+   width: 50%;
+    margin: auto;
+
+   position: relative;
+}

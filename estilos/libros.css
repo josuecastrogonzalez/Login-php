@@ -1,0 +1,199 @@
+/*body{
+    font-family: 'Roboto', sans-serif;
+}
+.sub-contenedor-menu{
+
+     display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    
+    
+}
+li{
+    list-style: none;
+    margin-right: 40px;
+    padding: 10px;
+}
+ li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.contenedor-formulario{
+    width: 500px;
+    
+    margin: 100px auto ;
+    
+}
+
+.cerrar {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.cerrar:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor-header{
+    color: white;
+   background: #194D39;
+    width: 100%;
+     height: 50px; 
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+  
+}
+.user{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: black;
+    
+}
+.label{
+    font-family: 'Arial';
+    font-size: 15px;
+}
+header{
+  position: relative;
+}
+.contenedor-menu{
+   width: 100%;
+    height: 70px;
+    background: #080E17;
+   position: absolute;
+    top: 50px;
+}
+h2{
+    margin-top: 100px;
+    margin-left:50px;
+}
+h1{
+    font-size: 30px;
+}
+h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.libros {
+   margin-top: 120px;
+    display: inline-block;
+    margin-right: 70px;
+    margin-bottom: 20px;
+   
+   
+}
+.biblioteca{
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+.biblioteca:hover{
+    text-decoration: none;
+    color: white;
+}
+.contenedor-titulo-libro{
+
+    width: 40%;
+  margin: auto;
+   
+    
+   
+}
+.enlace-registro{ 
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 5px 20px;
+    background: #29327A;
+    border-radius: 4px;
+    
+}
+.enlace-registro:hover{
+    background-color: darkslategrey;
+    text-decoration: none;
+    color: white;
+}
+table{
+   border-collapse: collapse;
+    font-size: 15px;
+    font-family: "Roboto";
+   width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+table th{
+    font-weight: normal;
+    text-align: left;
+    padding: 15px;
+    background: #122E36;
+    color: white;
+}
+table tr:nth-child(odd){
+    background: grey;
+    
+}
+table td{
+    padding: 15px;
+}
+.editar{
+    color: #2E3684;
+    
+    
+}
+.eliminar{
+    color: #CF0C0C;
+}
+section{
+    width: 100%;
+}
+#comentario{
+    height: 100px;
+    font-size: 15px;
+   
+}
+#update_id{
+    background: #9FDFCA;
+    text-align: center;
+    font-weight: bold;
+    
+}
+#venezuela{
+  
+    font-family: "Roboto";
+   margin-top: 15px;
+}
+
+.contenedor-reporte{
+    width: 40%;
+    margin: auto;
+    background-color: darkslateblue;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenedor-reporte a{
+    width: 100%;
+    padding: 50px;
+    font-size: 20px;
+    color: white;
+    
+}*/
+
+#reporte{
+    float: right;
+}
